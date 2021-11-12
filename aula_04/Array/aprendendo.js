@@ -48,3 +48,17 @@ console.log(meuArrayVariosTipos);
 //adicionando em uma posicao especifica - ela sobrescreve a posiçao
 meuArrayVariosTipos[3] = 'fone de ouvido';
 console.log(meuArrayVariosTipos);
+
+//excluindo a ultima posicao
+meuArrayVariosTipos.pop();
+console.log(meuArrayVariosTipos);
+
+//apagando a primeira posicao
+meuArrayVariosTipos.shift();
+console.log(meuArrayVariosTipos);
+
+//encontrando a posicao de um item especifico 
+console.log(meuArrayVariosTipos.indexOf(700));
+
+
+//remover uma posicao especifica
