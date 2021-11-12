@@ -61,4 +61,14 @@ console.log(meuArrayVariosTipos);
 console.log(meuArrayVariosTipos.indexOf(700));
 
 
-//remover uma posicao especifica
+//remover uma posicao especifica, parametro ONDE EU COMEÇO, OS ITENS SEGUINTES
+meuArrayVariosTipos.splice(3, 1);
+console.log(meuArrayVariosTipos);
+
+
+//adiciona um itens sem sobrescrever
+meuArrayVariosTipos.splice(4, 0, 'carteira');
+console.log(meuArrayVariosTipos);
+
+meuArrayVariosTipos.splice(2, 0, { iphone: 5898.65 });
+console.log(meuArrayVariosTipos);
